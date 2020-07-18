@@ -1,0 +1,82 @@
+.First_Part {
+  background-color: black;
+  color: whitesmoke;
+  padding-top:7%;
+}
+header{
+  background-color: black;
+  color: whitesmoke;
+}
+.main-content{
+
+}
+.color {
+  color: black;
+}
+.container {
+  max-width: 100% !important;
+}
+.pad-top1 {
+  padding-top: 1% !important;
+}
+.pad-top2 {
+  padding-top: 2% !important;
+}
+.pad-top3 {
+  padding-top: 3% !important;
+}
+.pad-top5 {
+  padding-top: 5% !important;
+}
+.pad-top6 {
+  padding-top: 6% !important;
+}
+.pad-top7 {
+  padding-top: 7% !important;
+}
+.pad-top8 {
+  padding-top: 8% !important;
+}
+.pad-right2 {
+  padding-right: 2% !important;
+}
+.pad-right3 {
+  padding-right: 3% !important;
+}
+.pad-left13 {
+  padding-left: 13% !important;
+}
+.pad-left2 {
+  padding-left: 2% !important;
+}
+.pad-bot3 {
+  padding-bottom: 3% !important;
+}
+.whyWeBest {
+  font-size: 150%;
+  font-weight: 500;
+}
+.triple✓ {
+  font-size: 125%;
+}
+/* Якорь */
+p {
+  font-size: 14px !important;
+}
+.down {
+  color: white !important;
+  transition: 0.2s;
+}
+A:link {
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+A:visited {
+  text-decoration: none;
+}
+A:active {
+  text-decoration: none;
+}
+A:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
