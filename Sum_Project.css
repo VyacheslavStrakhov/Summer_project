@@ -2,8 +2,36 @@
     color: whitesmoke;
     padding-top: 3%;
 }
+
 header {
     color: whitesmoke;
+}
+
+
+@media (min-width: 960px) {
+    .imgLogo {
+        width: 140%;
+        height: 120%;
+    }
+}
+
+@media (max-width: 959px) {
+    .imgLogo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .head_First {
+        order: 1;
+    }
+
+    .head_Second {
+        order: 3;
+    }
+
+    .head_Third {
+        order: 2;
+    }
 }
 
 .header_Left_Side {
@@ -17,18 +45,22 @@ header {
 .header_Right_Side {
     font-size: 150%;
 }
+
 .bg-color {
     background-size: 100%;
     background-color: black;
 
 }
+
 .center_Words {
     font-size: 250%;
 }
-.first_Part_Logo{
+
+.first_Part_Logo {
     width: 130% !important;
     height: 130% !important;
 }
+
 /*Second_Part*/
 .Second_Part {
     color: black;
@@ -40,13 +72,15 @@ header {
 .Second_Part_Decor {
     height: 300px !important;
 }
-.Third_Part{
+
+.Third_Part {
     background-color: black;
     color: whitesmoke;
     padding-top: 3%;
     background-size: 100%;
 }
-.third_Main_Words{
+
+.third_Main_Words {
     font-size: 230%;
 
 }
@@ -97,17 +131,21 @@ header {
 }
 
 .pad-top10 {
-      padding-top: 10% !important;
+    padding-top: 10% !important;
 }
+
 .pad-top13 {
     padding-top: 13% !important;
 }
+
 .pad-top15 {
     padding-top: 15% !important;
 }
+
 .pad-top18 {
     padding-top: 18% !important;
 }
+
 .pad-right2 {
     padding-right: 2% !important;
 }
@@ -123,9 +161,11 @@ header {
 .pad-left2 {
     padding-left: 2% !important;
 }
+
 .pad-left5 {
     padding-left: 5% !important;
 }
+
 .pad-left8 {
     padding-left: 8% !important;
 }
@@ -153,13 +193,16 @@ header {
 .six✓ {
     font-size: 150%;
 }
+
 /*сarousel*/
-.description{
+.description {
     font-size: 20px;
 }
-.carousel_Radius{
+
+.carousel_Radius {
     border-radius: 5px;
 }
+
 .down {
     color: white !important;
     font-size: 16px !important;
@@ -188,7 +231,8 @@ A:hover {
     transition: 0.2s;
     font-size: 16px !important;
 }
-.down_Second:hover{
+
+.down_Second:hover {
     opacity: 0.7;
     transition: 0.2s;
     color: black;
