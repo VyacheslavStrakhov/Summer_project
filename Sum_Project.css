@@ -45,7 +45,13 @@ header {
 .header_Right_Side {
     font-size: 150%;
 }
-
+.callto {
+    color:whitesmoke;
+}
+.callto:hover{
+    opacity: 0.8;
+    color:whitesmoke;
+}
 .bg-color {
     background-size: 100%;
     background-color: black;
@@ -219,6 +225,7 @@ A:visited {
 
 A:active {
     text-decoration: none;
+    color:whitesmoke;
 }
 
 A:hover {
