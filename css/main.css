@@ -67,12 +67,6 @@
     padding-top: 3%;
     background-size: 100%;
 }
-
-.third_Main_Words {
-    font-size: 230%;
-
-}
-
 .modal_Text {
     font-size: 21px;
     font-weight: 400;
@@ -85,9 +79,7 @@
 .container {
     max-width: 100% !important;
 }
-.whyWeBest {
-    font-size: 230%;
-}
+
 /*сarousel*/
 .description {
     font-size: 20px;
