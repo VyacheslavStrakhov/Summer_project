@@ -1,8 +1,8 @@
 
 @media (max-width: 959px) {
     .imgLogo {
-        width: 140%;
-        height: 120%;
+        width: 100%;
+        height: 100%;
     }
     .head_First {
         order: 1;
@@ -16,7 +16,6 @@
     /*}*/
     .head_Second {
         order: 3;
-        padding-right:23% !important;
         padding-bottom: 10% !important;
     }
     .big{
@@ -32,11 +31,20 @@
         display: flex;
         justify-content: center;
     }
+    .whyWeBest {
+        font-size: 200% !important;
+    }
+    .six✓ {
+        font-size: 120% !important;
+    }
+    .pad-top6 {
+        padding-top: 13% !important;
+    }
     .pad-top5 {
         padding-top: 10% !important;
     }
     .pad-top3 {
-        padding-top: 10% !important;
+        padding-top: 5% !important;
     }
     .pad-bot5 {
         padding-bottom: 15% !important;
@@ -52,6 +60,12 @@
     }
     .down {
         font-size: 14px !important;
+    }
+    .down_Second{
+        font-size: 14px !important;
+    }
+    pad-left1{
+        padding-left: 15% !important;
     }
 }
 
