@@ -1,0 +1,136 @@
+.overflow{
+    overflow: hidden;
+}
+.First_Part {
+    color: whitesmoke;
+    padding-top: 3%;
+}
+
+.header {
+    color: whitesmoke;
+}
+.header_Left_Side {
+    font-size: 130%;
+}
+.mail_ru {
+    font-size: 115%;
+}
+
+.header_Right_Side {
+    font-size: 150%;
+}
+.callto {
+    color:whitesmoke;
+}
+.callto:hover{
+    opacity: 0.9;
+    color:whitesmoke;
+}
+.wood_Gmail{
+    color:whitesmoke;
+}
+.wood_Gmail:hover{
+    opacity: 0.9;
+    color:whitesmoke;
+}
+.wood_Inst{
+    color:whitesmoke;
+}
+.wood_Inst:hover{
+    opacity: 0.9;
+    color:whitesmoke;
+}
+.bg-color {
+    background-size: 100%;
+    background-color: black;
+}
+.first_Part_Logo {
+    width: 130% !important;
+    height: 130% !important;
+}
+
+/*Second_Part*/
+.Second_Part {
+    color: black;
+    padding-top: 3%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.Second_Part_Decor {
+    height: 300px !important;
+}
+
+.Third_Part {
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 3%;
+    background-size: 100%;
+}
+
+.third_Main_Words {
+    font-size: 230%;
+
+}
+
+.modal_Text {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.color {
+    color: black;
+}
+
+.container {
+    max-width: 100% !important;
+}
+.whyWeBest {
+    font-size: 230%;
+}
+
+.six✓ {
+    font-size: 150%;
+}
+
+/*сarousel*/
+.description {
+    font-size: 20px;
+}
+
+.carousel_Radius {
+    border-radius: 5px;
+}
+.down {
+    color: white !important;
+    font-size: 16px !important;
+    transition: 0.2s;
+}
+A:link {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+A:visited {
+    text-decoration: none;
+}
+
+A:active {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+A:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.down_Second {
+    color: black;
+    transition: 0.2s;
+    font-size: 16px !important;
+}
+
+.down_Second:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+    color: black;
+}
