@@ -29,6 +29,10 @@
 .wood_Gmail{
     color:whitesmoke;
 }
+.header_Left_Side{
+     color:whitesmoke;
+    font-size:2rem;
+ }
 .wood_Gmail:hover{
     opacity: 0.9;
     color:whitesmoke;
