@@ -71,6 +71,12 @@
     padding-top: 3%;
     background-size: 100%;
 }
+.Fourth_Part{
+    color: black;
+    padding-top: 3%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
 .modal_Text {
     font-size: 21px;
     font-weight: 400;

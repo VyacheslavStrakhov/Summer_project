@@ -7,6 +7,9 @@
     .head_First {
         order: 1;
     }
+    .header_Left_Side {
+        font-size:2.3rem !important;
+    }
     .woodLogo{
         justify-content: center  !important;
     }
@@ -41,6 +44,9 @@
         font-size: 130% !important;
     }
     .third_Main_Words {
+        font-size: 230% !important;
+    }
+    .fourth_Main_Words {
         font-size: 230% !important;
     }
     .center_Words {
@@ -86,9 +92,6 @@
     }
     .pad-bot5 {
         padding-bottom: 15% !important;
-    }
-    .header_Left_Side {
-        font-size: 230% !important;
     }
     .center_Words{
         font-size: 200% !important ;

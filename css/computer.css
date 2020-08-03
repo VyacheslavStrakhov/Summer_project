@@ -24,7 +24,15 @@
     }
     .third_Main_Words {
         font-size: 300%;
-
+    }
+    .carousel_text{
+        font-size: 90% !important;
+    }
+    .fourth_Main_Words {
+        font-size: 300%;
+    }
+    .picture_Name{
+        font-size:1.7rem;
     }
     .pad-left2{
         padding-left: 2% !important;
@@ -107,12 +115,17 @@
     .pad-left20 {
         padding-left: 20% !important;
     }
-
     .pad-bot2 {
         padding-bottom: 2% !important;
     }
-    pad-bot10{
+    .pad-bot5 {
+        padding-bottom: 5% !important;
+    }
+    .pad-bot10{
         padding-bottom: 10% !important;
+    }
+    .pad-bot30{
+        padding-bottom: 30% !important;
     }
 }
 
