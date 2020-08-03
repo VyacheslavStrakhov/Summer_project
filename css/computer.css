@@ -16,6 +16,9 @@
     .small{
         display: none;
     }
+    .f_size{
+        font-size:1.2rem;
+    }
     .six✓ {
         font-size: 150% !important;
     }
