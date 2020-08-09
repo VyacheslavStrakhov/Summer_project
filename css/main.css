@@ -41,8 +41,11 @@ body{
 .wood_Gmail {
     color: whitesmoke;
 }
-
 .header_Left_Side {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.header_Left_Side:hover {
     color: whitesmoke;
     font-size: 2rem;
 }
@@ -133,146 +136,146 @@ A:visited {
     text-decoration: none;
 }
 
-A:active {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-A:hover {
-    transition: 0.2s;
-}
-
-.down_Second {
-    color: black;
-    transition: 0.2s;
-    font-size: 16px !important;
-}
-
-.down_Second:hover {
-    opacity: 0.7;
-    transition: 0.2s;
-    color: black;
-}
-
-/* Important styles */
-#toggle_big {
-    display: block;
-    width: 28px;
-    height: 30px;
-    margin: 30px auto 10px;
-}
-
-#toggle_big span:after,
-#toggle_big span:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -9px;
-}
-
-#toggle_big span:after {
-    top: 9px;
-}
-
-#toggle_big span {
-    position: relative;
-    display: block;
-}
-
-#toggle_big span,
-#toggle_big span:after,
-#toggle_big span:before {
-    width: 100%;
-    height: 5px;
-    background-color: whitesmoke;
-    transition: all 0.3s;
-    backface-visibility: hidden;
-    border-radius: 2px;
-}
-
-/* on activation */
-#toggle_big.on span {
-    background-color: transparent;
-}
-
-#toggle_big.on span:before {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-#toggle_big.on span:after {
-    transform: rotate(-45deg) translate(7px, -8px);
-}
-
-#toggle_big.on + #menu {
-    display: block;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    z-index: 200;
-}
-
-/* menu appearance*/
-#menu {
-    /*position: relative;*/
-    color: #999;
-    width: 35%;
-    padding: 10px;
-    margin: auto;
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-    text-align: center;
-    border-radius: 4px;
-    background: whitesmoke;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
-    /* just for this demo */
-    display: none;
-    transition: opacity 1s ease-out;
-    opacity: 0;
-
-}
-
-
-
-.ul-menu, .li-menu, .li-menu a {
-    list-style: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-.li-menu a {
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    transition: all .2s;
-    border-radius: 5px;
-}
-
-.li-menu a:hover{
-    background-color:black !important;
-    color: whitesmoke;
-    border-radius: 5px;
-}
-.li-menu a:focus {
-    background-color:#2e3133;
-    color: whitesmoke;
-    border-radius: 5px;
-}
-
-
-/* demo styles */
-/*body {*/
-/*    margin-top: 3em;*/
-/*    background: #eee;*/
-/*    color: #555;*/
-/*    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;*/
+/*A:active {*/
+/*    text-decoration: none;*/
+/*    color: whitesmoke;*/
 /*}*/
 
-p, p a {
-    font-size: 12px;
-    text-align: center;
-    color: #888;
-}
+/*A:hover {*/
+/*    transition: 0.2s;*/
+/*}*/
+
+/*.down_Second {*/
+/*    color: black;*/
+/*    transition: 0.2s;*/
+/*    font-size: 16px !important;*/
+/*}*/
+
+/*.down_Second:hover {*/
+/*    opacity: 0.7;*/
+/*    transition: 0.2s;*/
+/*    color: black;*/
+/*}*/
+
+/*!* Important styles *!*/
+/*#toggle_big {*/
+/*    display: block;*/
+/*    width: 28px;*/
+/*    height: 30px;*/
+/*    margin: 30px auto 10px;*/
+/*}*/
+
+/*#toggle_big span:after,*/
+/*#toggle_big span:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: -9px;*/
+/*}*/
+
+/*#toggle_big span:after {*/
+/*    top: 9px;*/
+/*}*/
+
+/*#toggle_big span {*/
+/*    position: relative;*/
+/*    display: block;*/
+/*}*/
+
+/*#toggle_big span,*/
+/*#toggle_big span:after,*/
+/*#toggle_big span:before {*/
+/*    width: 100%;*/
+/*    height: 5px;*/
+/*    background-color: whitesmoke;*/
+/*    transition: all 0.3s;*/
+/*    backface-visibility: hidden;*/
+/*    border-radius: 2px;*/
+/*}*/
+
+/*!* on activation *!*/
+/*#toggle_big.on span {*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*#toggle_big.on span:before {*/
+/*    transform: rotate(45deg) translate(5px, 5px);*/
+/*}*/
+
+/*#toggle_big.on span:after {*/
+/*    transform: rotate(-45deg) translate(7px, -8px);*/
+/*}*/
+
+/*#toggle_big.on + #menu {*/
+/*    display: block;*/
+/*    opacity: 1;*/
+/*    transition: opacity 1s ease-in-out;*/
+/*    position: absolute;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    z-index: 200;*/
+/*}*/
+
+/*!* menu appearance*!*/
+/*#menu {*/
+/*    !*position: relative;*!*/
+/*    color: #999;*/
+/*    width: 35%;*/
+/*    padding: 10px;*/
+/*    margin: auto;*/
+/*    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;*/
+/*    text-align: center;*/
+/*    border-radius: 4px;*/
+/*    background: whitesmoke;*/
+/*    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);*/
+/*    !* just for this demo *!*/
+/*    display: none;*/
+/*    transition: opacity 1s ease-out;*/
+/*    opacity: 0;*/
+
+/*}*/
+
+
+
+/*.ul-menu, .li-menu, .li-menu a {*/
+/*    list-style: none;*/
+/*    display: inline;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.li-menu a {*/
+/*    padding: 5px;*/
+/*    color: black;*/
+/*    text-decoration: none;*/
+/*    transition: all .2s;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.li-menu a:hover{*/
+/*    background-color:black !important;*/
+/*    color: whitesmoke;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.li-menu a:focus {*/
+/*    background-color:#2e3133;*/
+/*    color: whitesmoke;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+
+/*!* demo styles *!*/
+/*!*body {*!*/
+/*!*    margin-top: 3em;*!*/
+/*!*    background: #eee;*!*/
+/*!*    color: #555;*!*/
+/*!*    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;*!*/
+/*!*}*!*/
+
+/*p, p a {*/
+/*    font-size: 12px;*/
+/*    text-align: center;*/
+/*    color: #888;*/
+/*}*/
