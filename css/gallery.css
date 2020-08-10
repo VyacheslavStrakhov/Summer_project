@@ -36,8 +36,8 @@ body{
         box-shadow: #1b1e21;
         transition: 0.2s;
     }
-    .mt-10{
-        margin-top: 10%;
+    .mt-7{
+        margin-top: 7%;
     }
 }
 @media (max-width: 959px) {

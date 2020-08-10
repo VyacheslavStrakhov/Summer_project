@@ -133,9 +133,9 @@
     }
     .navbar{
         background-color: black;
-        border-width: 2px !important;
-        border-bottom: whitesmoke;
-        border-style: solid;
+        border-bottom-width: 2px !important;
+        border-bottom-color: whitesmoke;
+        border-bottom-style: solid;
     }
     .navbar-collapse{
         justify-content: flex-end;
@@ -151,16 +151,16 @@
         transition: 0.2s;
     }
     .to_Gallery{
-        color: whitesmoke;
-        font-size: 150%;
-        margin-left: 12%;
-        letter-spacing: 3px;
+        color: black;
+        font-size: 130%;
+        transition: 0.2s;
+        font-weight: 500;
     }
     .to_Gallery:hover{
-        color: lightgrey;
-        font-size: 150%;
+        color: #1d2124;
+        font-size: 130%;
         transition: 0.2s;
-        letter-spacing: 3px;
+        font-weight: 500;
     }
     /*!* Important styles *!*/
     /*#toggle_big {*/
