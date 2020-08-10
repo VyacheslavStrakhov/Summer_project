@@ -170,13 +170,14 @@
     }
     .to_Gallery{
         color: whitesmoke;
-        font-size: 160%;
-
+        font-size: 170%;
+        letter-spacing: 2px;
     }
     .to_Gallery:hover{
         color: lightgrey;
-        font-size: 160%;
+        font-size: 170%;
         transition: 0.2s;
+        letter-spacing: 2px;
     }
 }
 /*    !* Important styles *!*/

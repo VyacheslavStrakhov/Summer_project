@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     /*font-family: ;*/
 }
+
 .overflow {
     overflow: hidden;
 }
@@ -41,10 +43,12 @@ body{
 .wood_Gmail {
     color: whitesmoke;
 }
+
 .header_Left_Side {
     color: whitesmoke;
     font-size: 2rem;
 }
+
 .header_Left_Side:hover {
     color: whitesmoke;
     font-size: 2rem;
@@ -135,6 +139,7 @@ A:link {
 A:visited {
     text-decoration: none;
 }
+
 
 /*A:active {*/
 /*    text-decoration: none;*/
@@ -236,7 +241,6 @@ A:visited {
 /*    opacity: 0;*/
 
 /*}*/
-
 
 
 /*.ul-menu, .li-menu, .li-menu a {*/

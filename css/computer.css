@@ -154,11 +154,13 @@
         color: whitesmoke;
         font-size: 150%;
         margin-left: 12%;
+        letter-spacing: 3px;
     }
     .to_Gallery:hover{
         color: lightgrey;
         font-size: 150%;
         transition: 0.2s;
+        letter-spacing: 3px;
     }
     /*!* Important styles *!*/
     /*#toggle_big {*/
