@@ -170,12 +170,12 @@
     }
     .to_Gallery{
         color: whitesmoke;
-        font-size: 150%;
+        font-size: 160%;
 
     }
     .to_Gallery:hover{
         color: lightgrey;
-        font-size: 150%;
+        font-size: 160%;
         transition: 0.2s;
     }
 }
