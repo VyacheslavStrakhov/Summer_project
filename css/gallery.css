@@ -19,21 +19,26 @@ body{
         flex-wrap: wrap;
     }
     .img_cutted{
-        width: 12%;
+        width: 14%;
         height: 100%;
         margin-bottom: 0.5rem;
         border-radius: 2px;
         margin-right: 0.5rem;
-        transition: 0.2s;
+        transition: 0.3s;
     }
     .img_cutted:hover{
-        width: 12%;
+        width: 14%;
         height: 100%;
         margin-bottom: 0.5rem;
         border-radius: 2px;
         margin-right: 0.5rem;
         border: 1px solid gray;
-        box-shadow: #1b1e21;
+    }
+    .shadow{
+        transition: 0.4s;
+    }
+    .shadow:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
         transition: 0.2s;
     }
     .mt-7{
@@ -70,9 +75,13 @@ body{
         border-radius: 2px;
         margin-right: 0.5rem;
         border: 1px solid gray;
-        box-shadow: #1b1e21;
-        transition: 0.2s;
     }
+    .shadow{
+        transition: 0.4s;
+    }
+    .shadow:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        transition: 0.2s;
     .mt-10{
         margin-top: 10%;
     }
