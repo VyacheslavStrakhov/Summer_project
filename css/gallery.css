@@ -82,6 +82,7 @@ body{
     .shadow:hover{
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         transition: 0.2s;
+    }
     .mt-10{
         margin-top: 10%;
     }
