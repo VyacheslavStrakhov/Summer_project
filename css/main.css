@@ -5,7 +5,7 @@ html {
     transition: 0.4s;
 }
 .btn-white:hover , .btn-outline-white:hover{
-    box-shadow: 0 0 5px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 0 10px white;
     transition: 0.2s;
 }
 .overflow {
