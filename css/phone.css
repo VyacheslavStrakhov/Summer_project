@@ -124,7 +124,12 @@
     .pad-bot5 {
         padding-bottom: 15% !important;
     }
-
+    .pad-bot10{
+        padding-bottom: 10% !important;
+    }
+    .pad-bot20{
+        padding-bottom: 20% !important;
+    }
     .center_Words {
         font-size: 200% !important;
     }
@@ -180,114 +185,17 @@
         transition: 0.2s;
         font-weight: 500;
     }
+    .card{
+        border-radius: 5px;
+        width: 80% !important;
+    }
+    .card-body{
+        font-size: 1em;
+    }
+    .font_awes_size{
+        font-size: 2.5rem;
+    }
 }
-/*    !* Important styles *!*/
-/*    #toggle_small {*/
-/*        display: block;*/
-/*        width: 28px;*/
-/*        height: 30px;*/
-/*        margin: 30px auto 10px;*/
-/*    }*/
-
-/*    #toggle_small span:after,*/
-/*    #toggle_small span:before {*/
-/*        content: "";*/
-/*        position: absolute;*/
-/*        left: 0;*/
-/*        top: -9px;*/
-/*    }*/
-
-/*    #toggle_small span:after {*/
-/*        top: 9px;*/
-/*    }*/
-
-/*    #toggle_small span {*/
-/*        position: relative;*/
-/*        display: block;*/
-/*    }*/
-
-/*    #toggle_small span,*/
-/*    #toggle_small span:after,*/
-/*    #toggle_small span:before {*/
-/*        width: 100%;*/
-/*        height: 5px;*/
-/*        background-color: whitesmoke;*/
-/*        transition: all 0.3s;*/
-/*        backface-visibility: hidden;*/
-/*        border-radius: 2px;*/
-/*    }*/
-
-/*    !* on activation *!*/
-/*    #toggle_small.on span {*/
-/*        background-color: transparent;*/
-/*    }*/
-
-/*    #toggle_small.on span:before {*/
-/*        transform: rotate(45deg) translate(5px, 5px);*/
-/*    }*/
-
-/*    #toggle_small.on span:after {*/
-/*        transform: rotate(-45deg) translate(7px, -8px);*/
-/*    }*/
-
-/*    #toggle_small.on + #menu_small {*/
-/*        display: block;*/
-/*        opacity: 1;*/
-/*        transition: opacity 1s ease-in-out;*/
-/*        position: absolute;*/
-/*        margin-left: auto;*/
-/*        margin-right: auto;*/
-/*        left: 0;*/
-/*        right: 0;*/
-/*        z-index: 200;*/
-/*    }*/
-
-/*    !* menu appearance*!*/
-/*    #menu_small {*/
-/*        !*position: relative;*!*/
-/*        color: #999;*/
-/*        width: 70%;*/
-/*        padding: 10px;*/
-/*        margin: auto;*/
-/*        font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;*/
-/*        text-align: center;*/
-/*        border-radius: 4px;*/
-/*        background: whitesmoke;*/
-/*        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);*/
-/*        !* just for this demo *!*/
-/*        display: none;*/
-/*        transition: opacity 1s ease-out;*/
-/*        opacity: 0;*/
-/*        font-size: 130%;*/
-
-/*    }*/
-/*    .ul-menu, .li-menu, .li-menu a {*/
-/*        list-style: none;*/
-/*        display: block;*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-
-/*    .li-menu a {*/
-/*        padding: 8px;*/
-/*        color: black;*/
-/*        text-decoration: none;*/
-/*        transition: all .2s;*/
-/*        border-radius: 5px;*/
-/*        font-size: 140%;*/
-/*    }*/
-
-/*    .li-menu a:hover{*/
-/*        background-color:black !important;*/
-/*        color: whitesmoke;*/
-/*        border-radius: 5px;*/
-/*    }*/
-/*    .li-menu a:focus {*/
-/*        background-color:#2e3133;*/
-/*        color: whitesmoke;*/
-/*        border-radius: 5px;*/
-/*    }*/
-/*}*/
 
 
 
