@@ -1,152 +1,155 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-.btn, .btn-white, .btn-outline-white{
-    transition: 0.4s;
+.btn,
+.btn-white,
+.btn-outline-white {
+  transition: 0.4s;
 }
-.btn-white:hover , .btn-outline-white:hover{
-    box-shadow: 0 0 10px white;
-    transition: 0.2s;
+.btn-white:hover,
+.btn-outline-white:hover {
+  box-shadow: 0 0 10px white;
+  transition: 0.2s;
 }
 .overflow {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .First_Part {
-    color: whitesmoke;
-    padding-top: 3%;
+  color: whitesmoke;
+  padding-top: 3%;
 }
 
 .header {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .header_Left_Side {
-    font-size: 130%;
+  font-size: 130%;
 }
 
 .mail_ru {
-    font-size: 115%;
+  font-size: 115%;
 }
 
 .header_Right_Side {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .callto {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .callto:hover {
-    opacity: 0.9;
-    color: whitesmoke;
+  opacity: 0.9;
+  color: whitesmoke;
 }
 
 .wood_Gmail {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .header_Left_Side {
-    color: whitesmoke;
-    font-size: 2rem;
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
 .header_Left_Side:hover {
-    color: whitesmoke;
-    font-size: 2rem;
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
 .wood_Gmail:hover {
-    opacity: 0.9;
-    color: whitesmoke;
+  opacity: 0.9;
+  color: whitesmoke;
 }
 
 .wood_Inst {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .wood_Inst:hover {
-    opacity: 0.9;
-    color: whitesmoke;
+  opacity: 0.9;
+  color: whitesmoke;
 }
 
 .bg-color {
-    background-size: 100%;
-    background-color: black;
+  background-size: 100%;
+  background-color: black;
 }
 
 .first_Part_Logo {
-    width: 130% !important;
-    height: 130% !important;
+  width: 130% !important;
+  height: 130% !important;
 }
 
 /*Second_Part*/
 .Second_Part {
-    color: black;
-    padding-top: 3%;
-    background-color: whitesmoke;
-    overflow: hidden;
+  color: black;
+  padding-top: 3%;
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 .Second_Part_Decor {
-    height: 300px !important;
+  height: 300px !important;
 }
 
 .Third_Part {
-    background-color: black;
-    color: whitesmoke;
-    padding-top: 3%;
-    background-size: 100%;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 3%;
+  background-size: 100%;
 }
 
 .Fourth_Part {
-    color: black;
-    padding-top: 3%;
-    background-color: whitesmoke;
-    overflow: hidden;
+  color: black;
+  padding-top: 3%;
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 .modal_Text {
-    font-size: 21px;
-    font-weight: 400;
+  font-size: 21px;
+  font-weight: 400;
 }
 
 .color {
-    color: black;
+  color: black;
 }
 
 .container {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 /*сarousel*/
 .description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .carousel_Radius {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .down {
-    color: white !important;
-    font-size: 16px !important;
-    transition: 0.2s;
+  color: white !important;
+  font-size: 16px !important;
+  transition: 0.2s;
 }
 
 A:link {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
 }
 
 A:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
-.font_awes_size{
-    font-size: 3.5rem;
+.font_awes_size {
+  font-size: 3.5rem;
 }
-.card{
-    background-color: #d3d9df;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3) !important;
+.card {
+  background-color: #d3d9df;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 /*A:active {*/
@@ -250,7 +253,6 @@ A:visited {
 
 /*}*/
 
-
 /*.ul-menu, .li-menu, .li-menu a {*/
 /*    list-style: none;*/
 /*    display: inline;*/
@@ -276,7 +278,6 @@ A:visited {
 /*    color: whitesmoke;*/
 /*    border-radius: 5px;*/
 /*}*/
-
 
 /*!* demo styles *!*/
 /*!*body {*!*/
