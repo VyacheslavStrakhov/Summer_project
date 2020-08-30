@@ -1,10 +1,7 @@
 body {
-    background-color: #f5f5f5;
+    background-color: whitesmoke;
     width: 100% !important;
     height: 100% !important;
-}
-.container_header{
-    width: 98%;
 }
 .mail_ru {
     font-size: 115%;
@@ -32,6 +29,9 @@ A:visited {
 }
 
 @media (min-width: 960px) {
+    .container_header{
+        width: 98%;
+    }
     .btn-light {
         background-color: #ececec;
         border-radius: 50%;
@@ -99,11 +99,15 @@ A:visited {
 }
 
 @media (max-width: 959px) {
+    .container_header{
+        width: 95%;
+        overflow: hidden;
+    }
     .btn-light {
         background-color: #ececec;
         border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
         transition: 0.1s;
         margin-left: 3px;
         margin-top: 3px;
