@@ -5,465 +5,959 @@
     <meta charset="utf-8"/>
     <!-- Настройка viewport -->
     <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+       name="viewport"
+       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <!-- Подключаем Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>WOODMONET GALLERY</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
-    <link rel="stylesheet" href="css/gallery.css">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <title>Галерея WOODMONET</title>
+    <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/gallery.css"/>
+    <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
 </head>
 <body>
-<div class="mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 main_Words text-center">
-                ГАЛЕРЕЯ
+<div class="container_header">
+    <div class="row">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-left">
+            <a href="index.html">
+                <button class="btn btn-light" type="button">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-right pl-0 pt-1">
+            <div class="mail_ru">
+                <span style="font-size: 1.4rem; color: black">
+                    <i class="fab fa-instagram"></i>
+                </span>
+                <a href="https://www.instagram.com/woodmonet.ua/" class="wood_Inst">
+                    Instagram
+                </a>
             </div>
         </div>
     </div>
-   <div class="mt-5 pt-3 ">
-        <div class="type_photo">
-            Флора
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-right">
+            <div class="mail_ru">
+
+                <i class="far fa-envelope" style="font-size: 1.4rem; color: black"></i>
+
+                &nbsp;
+                <a
+                   href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqSvdDbkTZKfKTkmSVmqQJzFKKbxgXrVGHpkSzjtKvdjJNhCllmkdQJTbmMCLqkrLPRvDV"
+                   class="wood_Gmail"
+                >
+                    woodmonet.ua@gmail.com
+                </a>
+            </div>
         </div>
-       <hr>
-       <div class="d-flex justify-content-start ml-3 wrap">
-           <a href="/" data-toggle="modal"
-              data-target="#treeModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/11.jpg"
-                    alt="Картина «Дерево»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#cactusModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/9.jpg"
-                    alt="Картина «Кактус»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#tropicalsModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/14.jpg"
-                    alt="Композиция «Полевые цветы»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#cactiModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/12.jpg"
-                    alt="Картина «Кактусы»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#tropicalModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/16.jpg"
-                    alt="Картина «Тропические цветы»">
-           </a>
-       </div>
-       <div class="type_photo mt-7 mt-10">
-           Фауна
-       </div>
-       <hr>
-       <div class="d-flex justify-content-start ml-3 wrap">
-           <a href="/" data-toggle="modal"
-              data-target="#catModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/6.jpg"
-                    alt="Картина «Милый котик»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#beerModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/7.jpg"
-                    alt="Картина «Мишка»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#deerModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/8.jpg"
-                    alt="Картина «Олень»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#dogModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/10.jpg"
-                    alt="Картина «Доберман»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#owlModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/13.jpg"
-                    alt="Картина «Сова»">
-           </a>
-       </div>
-       <div class="type_photo mt-7 mt-10">
-           Разное
-       </div>
-       <hr>
-       <div class="d-flex justify-content-start ml-3 wrap">
-           <a href="/" data-toggle="modal"
-              data-target="#guitareModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/3.jpg"
-                    alt="Картина «Гитара»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#womanModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/4.jpg"
-                    alt="Картина «Девушка»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#carModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/5.jpg"
-                    alt="Картина «Машина»">
-           </a>
-           <a href="/" data-toggle="modal"
-              data-target="#planeModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/1.jpg"
-                    alt="Картина «Самолёт»">
-           </a>
-       </div>
-<!--       <div class="type_photo mt-7 mt-10">-->
-<!--           Надписи-->
-<!--       </div>-->
-<!--       <hr>-->
-<!--       <div class="d-flex justify-content-start ml-3 wrap">-->
-<!--           <a href="/" data-toggle="modal"-->
-<!--              data-target="#guitareModal" class="img_cutted">-->
-<!--               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/"-->
-<!--                    alt="Картина «»">-->
-<!--           </a>-->
-<!--           <a href="/" data-toggle="modal"-->
-<!--              data-target="#guitareModal" class="img_cutted">-->
-<!--               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/"-->
-<!--                    alt="Картина «»">-->
-<!--           </a>-->
-<!--       </div>-->
-       <div class="type_photo mt-7 mt-10">
-           Карты
-       </div>
-       <hr>
-       <div class="d-flex justify-content-start ml-3 wrap">
-           <a href="/" data-toggle="modal"
-              data-target="#worldMapModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/2.jpg"
-                    alt="Картина «Карта мира»">
-           </a>
-       </div>
-       <div class="type_photo mt-7 mt-10">
-           Картины по фото
-       </div>
-       <hr>
-       <div class="d-flex justify-content-start ml-3 wrap">
-           <a href="/" data-toggle="modal"
-              data-target="#doggeModal" class="img_cutted">
-               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/15.jpg"
-                    alt="Картина «Картина по фото»">
-           </a>
-       </div>
-       <div class="mt-7 mt-10">
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+            <div class="head_Second col-lg-4 col-sm-4 pl-0 pr-0 big">
+                <div class="col-12-lg p-0 m-0">
+                    <img
+                       class="imgLogo img-fluid animated fadeInLeft"
+                       src="images/Woodmone_Style/logo_top_cuted_inv.png"
+                    />
+                </div>
+                <div class="col-12-lg p-0 m-0">
+                    <img
+                       class="imgLogo img-fluid animated fadeInRight"
+                       src="images/Woodmone_Style/logo_bot_cuted_inv.png"
+                    />
+                </div>
 
-       </div>
-       <div class="modals">
-<!--           Flora-->
-           <div class="modal fade" id="treeModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Флора/Дерево.jpg"
-                                alt="Картина «Дерево»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDhGjqF-Li/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="cactusModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Флора/кактус.jpg"
-                                alt="Картина «Кактус»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDf3dslBXM/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="tropicalsModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius"
-                                src="images/Флора/полевые-цветы-черный.jpg"
-                                alt="Композиция «Гитара»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDjX1tlMN9/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="cactiModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Флора/кактусы.jpg"
-                                alt="Композиция «Кактусы»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CDYtAbdpaat/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="tropicalModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Флора/тропические-цветы.jpg"
-                                alt="Композиция «Тропические цветы»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDl5-Wl36C/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-<!--           Fauna-->
-           <div class="modal fade" id="catModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Фауна/котик.jpg"
-                                alt="Картина «Милый котик»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCMPegklHWJ/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="beerModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Фауна/мишка.jpg"
-                                alt="Картина «Мишка»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCRd1kyJXwF/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="deerModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius"
-                                src="images/Фауна/олень.jpg"
-                                alt="Картина «Олень»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCdyNSKFK3F/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="dogModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Фауна/Собака.jpg"
-                                alt="Картина «Доберман»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDiYR7lddF/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="owlModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Фауна/Сова.jpg"
-                                alt="Картина «Сова»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CDYhHX8pTz_/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-<!--           Other-->
-           <div class="modal fade" id="guitareModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Разное/гитара.jpg"
-                                alt="Картина «Гитара»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDlNJcFSn_/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="womanModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Разное/девушка.jpg"
-                                alt="Картина «Девушка»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CDYbwHip7GW/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="carModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius"
-                                src="images/Разное/машина.jpg"
-                                alt="Картина «Машина»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCdy4XblFaL/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="planeModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Разное/Самолет.jpg"
-                                alt="Картина «Самолёт»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCDudIilYnF/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-<!--           lettering-->
-           <div class="modal fade" id="worldMapModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/карты/карта%20мира%20геометрия.jpg"
-                                alt="Картина «Картина мира»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CDNzxijpHut/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="modal fade" id="doggeModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                   <div class="modal-content">
-
-                       <div class="modal-body">
-                           <img class=" d-block w-100 carousel_Radius" src="images/Картины%20по%20фото/1.jpg"
-                                alt="Картина «Картина по фото»">
-                       </div>
-                       <div class="modal-footer d-flex justify-content-between border-0 pt-0">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <a href="https://www.instagram.com/p/CCI09f7l7jY/">
-                               <button type="button" class="btn btn-primary">Instagram</button>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
+                <!--                    <img class="imgLogo" src="images/Woodmone_Style/black_White_Logo.jpg">-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mt-5 pt-3">
+    <div class="type_photo">Флора</div>
+    <hr/>
+    <div class="d-flex justify-content-start ml-3 wrap">
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#treeModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/11.jpg"
+               alt="Картина «Дерево»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#cactusModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/9.jpg"
+               alt="Картина «Кактус»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#tropicalsModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/14.jpg"
+               alt="Композиция «Полевые цветы»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#cactiModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/12.jpg"
+               alt="Картина «Кактусы»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#tropicalModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/16.jpg"
+               alt="Картина «Тропические цветы»"
+            />
+        </a>
+    </div>
+    <div class="type_photo mt-7 mt-10">Фауна</div>
+    <hr/>
+    <div class="d-flex justify-content-start ml-3 wrap">
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#catModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/6.jpg"
+               alt="Картина «Милый котик»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#beerModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/7.jpg"
+               alt="Картина «Мишка»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#deerModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/8.jpg"
+               alt="Картина «Олень»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#dogModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/10.jpg"
+               alt="Картина «Доберман»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#owlModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/13.jpg"
+               alt="Картина «Сова»"
+            />
+        </a>
+    </div>
+    <div class="type_photo mt-7 mt-10">Разное</div>
+    <hr/>
+    <div class="d-flex justify-content-start ml-3 wrap">
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#guitareModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/3.jpg"
+               alt="Картина «Гитара»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#womanModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/4.jpg"
+               alt="Картина «Девушка»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#carModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/5.jpg"
+               alt="Картина «Машина»"
+            />
+        </a>
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#planeModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/1.jpg"
+               alt="Картина «Самолёт»"
+            />
+        </a>
+    </div>
+    <!--       <div class="type_photo mt-7 mt-10">-->
+    <!--           Надписи-->
+    <!--       </div>-->
+    <!--       <hr>-->
+    <!--       <div class="d-flex justify-content-start ml-3 wrap">-->
+    <!--           <a href="/" data-toggle="modal"-->
+    <!--              data-target="#guitareModal" class="img_cutted">-->
+    <!--               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/"-->
+    <!--                    alt="Картина «»">-->
+    <!--           </a>-->
+    <!--           <a href="/" data-toggle="modal"-->
+    <!--              data-target="#guitareModal" class="img_cutted">-->
+    <!--               <img class=" d-block w-100 shadow" src="images/photo_for_slavik/"-->
+    <!--                    alt="Картина «»">-->
+    <!--           </a>-->
+    <!--       </div>-->
+    <div class="type_photo mt-7 mt-10">Карты</div>
+    <hr/>
+    <div class="d-flex justify-content-start ml-3 wrap">
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#worldMapModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/2.jpg"
+               alt="Картина «Карта мира»"
+            />
+        </a>
+    </div>
+    <div class="type_photo mt-7 mt-10">Картины по фото</div>
+    <hr/>
+    <div class="d-flex justify-content-start ml-3 wrap">
+        <a
+           href="/"
+           data-toggle="modal"
+           data-target="#doggeModal"
+           class="img_cutted"
+        >
+            <img
+               class="d-block w-100 shadow"
+               src="images/photo_for_slavik/15.jpg"
+               alt="Картина «Картина по фото»"
+            />
+        </a>
+    </div>
+    <div class="mt-7 mt-10"></div>
+    <div class="modals">
+        <!--           Flora-->
+        <div
+           class="modal fade"
+           id="treeModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Флора/Дерево.jpg"
+                           alt="Картина «Дерево»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDhGjqF-Li/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="cactusModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Флора/кактус.jpg"
+                           alt="Картина «Кактус»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDf3dslBXM/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="tropicalsModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Флора/полевые-цветы-черный.jpg"
+                           alt="Композиция «Гитара»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDjX1tlMN9/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="cactiModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Флора/кактусы.jpg"
+                           alt="Композиция «Кактусы»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CDYtAbdpaat/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="tropicalModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Флора/тропические-цветы.jpg"
+                           alt="Композиция «Тропические цветы»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDl5-Wl36C/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--           Fauna-->
+        <div
+           class="modal fade"
+           id="catModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Фауна/котик.jpg"
+                           alt="Картина «Милый котик»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCMPegklHWJ/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="beerModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Фауна/мишка.jpg"
+                           alt="Картина «Мишка»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCRd1kyJXwF/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="deerModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Фауна/олень.jpg"
+                           alt="Картина «Олень»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCdyNSKFK3F/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="dogModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Фауна/Собака.jpg"
+                           alt="Картина «Доберман»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDiYR7lddF/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="owlModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Фауна/Сова.jpg"
+                           alt="Картина «Сова»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CDYhHX8pTz_/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--           Other-->
+        <div
+           class="modal fade"
+           id="guitareModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Разное/гитара.jpg"
+                           alt="Картина «Гитара»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDlNJcFSn_/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="womanModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Разное/девушка.jpg"
+                           alt="Картина «Девушка»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CDYbwHip7GW/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="carModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Разное/машина.jpg"
+                           alt="Картина «Машина»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCdy4XblFaL/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="planeModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Разное/Самолет.jpg"
+                           alt="Картина «Самолёт»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCDudIilYnF/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--           lettering-->
+        <div
+           class="modal fade"
+           id="worldMapModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/карты/карта%20мира%20геометрия.jpg"
+                           alt="Картина «Картина мира»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CDNzxijpHut/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+           class="modal fade"
+           id="doggeModal"
+           tabindex="-1"
+           role="dialog"
+           aria-labelledby="exampleModalCenterTitle"
+           aria-hidden="true"
+        >
+            <div
+               class="modal-dialog modal-dialog-centered modal-lg"
+               role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img
+                           class="d-block w-100 carousel_Radius"
+                           src="images/Картины%20по%20фото/1.jpg"
+                           alt="Картина «Картина по фото»"
+                        />
+                    </div>
+                    <div
+                       class="modal-footer d-flex justify-content-between border-0 pt-0"
+                    >
+                        <button
+                           type="button"
+                           class="btn btn-secondary"
+                           data-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="https://www.instagram.com/p/CCI09f7l7jY/">
+                            <button type="button" class="btn btn-primary">
+                                Instagram
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 
 <!-- Подключаем плагин Popper -->
 <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
+   src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+   crossorigin="anonymous"
 ></script>
 
 <!-- Подключаем Bootstrap JS -->
 <script src="js/bootstrap.min.js"></script>
+<script
+   src="https://kit.fontawesome.com/bc75e7b160.js"
+   crossorigin="anonymous"
+></script>
 </body>
 </html>
