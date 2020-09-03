@@ -3,10 +3,6 @@ body {
     width: 100% !important;
     height: 100% !important;
 }
-.mail_ru {
-    font-size: 115%;
-}
-
 .wood_Inst {
     color: black;
 }
@@ -33,13 +29,13 @@ A:visited {
         width: 98%;
     }
     .btn-light {
-        background-color: #ececec;
+        background-color: #e7e8ea;
         border-radius: 50%;
         width: 3rem;
         height: 3rem;
         transition: 0.1s;
-        margin-left: 5px;
-        margin-top: 5px;
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
     .btn-light:hover {
         transition: 0.1s;
@@ -51,12 +47,13 @@ A:visited {
     hr {
         border-top: 1px solid #1b1e21;
     }
-
+    .mail_ru {
+        font-size: 115%;
+    }
     .main_Words {
         font-size: 250%;
         letter-spacing: 6px;
     }
-
     .type_photo {
         font-size: 190%;
         margin-left: 5rem;
@@ -92,7 +89,10 @@ A:visited {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         transition: 0.2s;
     }
-
+    .paddings{
+        padding-left: 0px;
+        padding-top: 1rem;
+    }
     .mt-7 {
         margin-top: 7%;
     }
@@ -104,16 +104,15 @@ A:visited {
         overflow: hidden;
     }
     .btn-light {
-        background-color: #ececec;
+        background-color: #e7e8ea;
         border-radius: 50%;
         width: 3rem;
         height: 3rem;
         transition: 0.1s;
-        margin-left: 3px;
-        margin-top: 3px;
+        margin-left: 1rem;
+        margin-top: 1rem;
         font-size: 100% !important;
     }
-
     .btn-light:hover {
         transition: 0.1s;
         font-size: 110% !important;
@@ -124,7 +123,9 @@ A:visited {
     hr {
         border-top: 1px solid #1b1e21;
     }
-
+    .mail_ru {
+        font-size: 105%;
+    }
     .main_Words {
         font-size: 250%;
         letter-spacing: 6px;
@@ -165,7 +166,10 @@ A:visited {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         transition: 0.2s;
     }
-
+    .paddings{
+        padding-left: 0px;
+        padding-top: 1rem;
+    }
     .mt-10 {
         margin-top: 10%;
     }
