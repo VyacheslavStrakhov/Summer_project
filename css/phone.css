@@ -1,5 +1,116 @@
 
 @media (max-width: 959px) {
+
+
+    .social-icons-inst {
+        padding: 0;
+        list-style: none;
+        margin: 10px;
+    }
+    .social-icons-inst div {
+        display: inline-block;
+        position: relative;
+        font-size: 24px;
+    }
+    .social-icons-inst a {
+        display: inline-block;
+    }
+    .social-icons-inst a:before {
+        transform: scale(1);
+        content: "";
+        size:2rem;
+        border-radius: 100%;
+        display: block;
+        background: linear-gradient(45deg, #dd4b39, #2d6b9f);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-out;
+    }
+    .social-icons-inst a:hover:before {
+        transform: scale(0);
+        transition: all 0.2s ease-in;
+    }
+    .social-icons-inst a:hover i,
+    .social-icons-inst a:hover img {
+        transform: scale(1.8);
+        color: #dd4b39;
+        transition: all 0.2s ease-in;
+    }
+
+    
+    .social-icons-mail {
+        padding: 0;
+        list-style: none;
+        margin: 10px;
+    }
+    .social-icons-mail div {
+        display: inline-block;
+        position: relative;
+        font-size: 24px;
+    }
+    .social-icons-mail a {
+        display: inline-block;
+    }
+    .social-icons-mail a:before {
+        transform: scale(1);
+        content: "";
+        size:2rem;
+        border-radius: 100%;
+        display: block;
+        background: linear-gradient(45deg, #dd4b39, #2d6b9f);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-out;
+    }
+    .social-icons-mail a:hover:before {
+        transform: scale(0);
+        transition: all 0.2s ease-in;
+    }
+    .social-icons-mail a:hover i,
+    .social-icons-mail a:hover img {
+        transform: scale(1.8);
+        color: #dd4b39;
+        transition: all 0.2s ease-in;
+    }
+
+
+    .social-icons-callto {
+        padding: 0;
+        list-style: none;
+        margin: 10px;
+    }
+    .social-icons-callto div {
+        display: inline-block;
+        position: relative;
+        font-size: 24px;
+    }
+    .social-icons-callto a {
+        display: inline-block;
+    }
+    .social-icons-callto a:before {
+        transform: scale(1);
+        content: "";
+        size:2rem;
+        border-radius: 100%;
+        display: block;
+        background: linear-gradient(45deg, #E2AA00, #2d6b9f);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-out;
+    }
+    .social-icons-callto a:hover:before {
+        transform: scale(0);
+        transition: all 0.2s ease-in;
+    }
+    .social-icons-callto a:hover i,
+    .social-icons-callto a:hover img {
+        transform: scale(1.8);
+        color: #E2AA00;
+        transition: all 0.2s ease-in;
+    }
+
+
+    .header_Left_Side {
+        font-size: 130%;
+    }
+
     .imgLogo {
         width: 100%;
         height: 100%;
@@ -10,12 +121,12 @@
     }
 
     .header_Left_Side {
-        font-size: 2.3rem !important;
-        color: white!important;
+        font-size: 2.3rem;
+        color: white;
     }
 
     .woodLogo {
-        justify-content: center !important;
+        justify-content: center;
     }
 
     /*.pad-left2{*/
@@ -24,7 +135,7 @@
     /*}*/
     .head_Second {
         order: 3;
-        padding-bottom: 10% !important;
+        padding-bottom: 10%;
     }
 
     .big {
@@ -34,6 +145,12 @@
     .small {
         display: block;
     }
+
+    .first_Main_Words {
+        font-size: 190%;
+    }
+
+
 
     .head_Third {
         order: 2;
@@ -49,52 +166,61 @@
     }
 
     .whyWeBest {
-        font-size: 230% !important;
+        font-size: 230%;
+    }
+
+
+    .whyWeBest {
+        font-size: 230%;
     }
 
     .six✓ {
-        font-size: 130% !important;
+        font-size: 130%;
     }
 
     .third_Main_Words {
-        font-size: 230% !important;
+        font-size: 230%;
+    }
+
+    .carousel_Coment_pt{
+        padding-top: 3%;
     }
 
     .carousel_text {
-        font-size: 90% !important;
+        font-size: 90%;
         color: whitesmoke;
     }
 
     .fourth_Main_Words {
-        font-size: 230% !important;
+        font-size: 230%;
     }
 
     .center_Words {
-        font-size: 230% !important;
+        font-size: 230%;
     }
 
     .pad-top1 {
-        padding-top: 1% !important;
+        padding-top: 1%;
     }
 
     .pad-top2 {
-        padding-top: 2% !important;
+        padding-top: 2%;
     }
 
     .pad-top7 {
-        padding-top: 7% !important;
+        padding-top: 7%;
     }
 
     .pad-top3proc {
-        padding-top: 3% !important;
+        padding-top: 3%;
     }
 
     .pad-top8 {
-        padding-top: 8% !important;
+        padding-top: 8%;
     }
 
     .pad-top9 {
-        padding-top: 9% !important;
+        padding-top: 9%;
     }
 
     .pad-top10 {
@@ -142,7 +268,7 @@
         font-size: 14px !important;
     }
 
-    pad-left1 {
+    .pad-left1 {
         padding-left: 15% !important;
     }
     button:focus{
@@ -165,6 +291,8 @@
     .nav-link, .nav-brand {
         color: white !important;
         font-size: 1.1rem;
+        border-radius: 50px !important;
+        padding-left: 3% !important;
     }
 
     .nav-link:hover, .nav-brand:hover {
@@ -172,6 +300,13 @@
         background-color: white;
         border-radius: 5px;
         transition: 0.2s;
+    }
+    .btn-white{
+        width: 70% !important;
+        height: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        border-radius: 50px !important;
     }
     .to_Gallery{
         color: black;
@@ -197,6 +332,22 @@
     }
 }
 
+@media (max-width: 576px){
+    .first_Main_Words {
+        font-size: 140%;
+    }
+    .whyWeBest {
+        font-size: 140%;
+    }
+
+    .card-body{
+        font-size: 0.8em;
+    }
+
+    .third_Main_Words {
+        font-size: 140%;
+    }
+}
 
 
 
