@@ -8,7 +8,7 @@ html {
 }
 .btn-white:hover,
 .btn-outline-white:hover {
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 20px #be26cc;
   transition: 0.2s;
 }
 .overflow {
@@ -18,6 +18,61 @@ html {
 .First_Part {
   color: whitesmoke;
   padding-top: 3%;
+}
+
+.nav_border_color1{
+  transition: 0.2s;
+  color:whitesmoke;
+  border-bottom:solid 2px black;
+}
+.nav_border_color2{
+  transition: 0.2s;
+  color:whitesmoke;
+  border-bottom:solid 2px black;
+}
+.nav_border_color3{
+  transition: 0.2s;
+  color:whitesmoke;
+  border-bottom:solid 2px black;
+}
+.nav_border_color4{
+  transition: 0.2s;
+  color:whitesmoke;
+  border-bottom:solid 2px black;
+}
+
+.nav_border_color1:hover{
+  border-bottom:solid 2px #E2AA00;
+  transition: 0.2s;
+  
+}
+.nav_border_color2:hover{
+  border-bottom:solid 2px #dd4b39;
+  transition: 0.2s;
+}
+.nav_border_color3:hover{
+  border-bottom:solid 2px#517fa4;
+  transition: 0.2s;
+}
+.nav_border_color4:hover{
+  border-bottom:solid 2px#9d51a4;
+  transition: 0.2s;
+}
+.nav_border_color5:hover{
+  border-bottom:solid 2px#51a492;
+  transition: 0.2s;
+}
+
+.icon_style_inst{
+  color:#517fa4a4;
+}
+
+.icon_style_mail{
+  color:#dd4c399f;
+}
+
+.icon_style_call{
+  color: #e2a900a4;
 }
 
 .header {
@@ -106,6 +161,23 @@ A:visited {
 .font_awes_size {
   font-size: 3.5rem;
 }
+
+.icon_style_card1{
+  color:#517fa4;
+}
+
+.icon_style_card2{
+  color:#dd4b39;
+}
+
+.icon_style_card3{
+  color: #e2a900a4;
+}
+
+.icon_style_card4{
+  color: #9d51a4;
+}
+
 .card {
   width: 50% !important;
   background-color:white;

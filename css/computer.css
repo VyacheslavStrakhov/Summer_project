@@ -6,6 +6,7 @@
     }
     .card_MarginLf {
         padding-left: 25%;
+        
     }
 }
 @media (min-width: 960px),(max-width: 991px) {
@@ -120,7 +121,7 @@
 
 
     .header_Left_Side i{
-        color:whitesmoke;
+        /* color:whitesmoke; */
         font-size: 2.5rem;
       }
 
@@ -262,9 +263,7 @@
     }
     .navbar{
         background-color: black;
-        border-bottom-width: 2px !important;
-        border-bottom-color: whitesmoke;
-        border-bottom-style: solid;
+        border-bottom:solid 2px rgba(255, 255, 255, 0.876)!important;
     }
     .navbar-collapse{
         justify-content: flex-end;
@@ -272,15 +271,10 @@
     .nav-link, .nav-brand{
         color:whitesmoke !important;
         font-size: 1.3rem;
-        border-radius: 50px;
+        border-radius: 10px;
 
     }
-    .nav-link:hover, .nav-brand:hover{
-        color:black !important;
-        background-color: whitesmoke;
-        border-radius: px;
-        transition: 0.2s;
-    }
+    
 
     .btn-white{
         width: 20% !important;
