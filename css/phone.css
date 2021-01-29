@@ -91,7 +91,7 @@
         size:2rem;
         border-radius: 100%;
         display: block;
-        background: linear-gradient(45deg, #E2AA00, #2d6b9f);
+        background: linear-gradient(45deg, #a342ac, #2d6b9f);
         box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
         transition: all 0.2s ease-out;
     }
@@ -102,7 +102,7 @@
     .social-icons-callto a:hover i,
     .social-icons-callto a:hover img {
         transform: scale(1.8);
-        color: #E2AA00;
+        color: #a342ac;
         transition: all 0.2s ease-in;
     }
 
@@ -275,9 +275,7 @@
     }
     .navbar {
         background-color: black;
-        border-bottom-width: 2px !important;
-        border-bottom-color: whitesmoke;
-        border-bottom-style: solid;
+        border-bottom:solid 2px rgba(255, 255, 255, 0.876)!important;
     }
 
     .navbar-collapse {
@@ -287,7 +285,7 @@
     .nav-link, .nav-brand {
         color: white !important;
         font-size: 1.1rem;
-        border-radius: 10px !important;
+        border-radius: 0 0 1px 12px !important;
         padding-left: 3% !important;
     }
     .btn-white{
