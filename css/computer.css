@@ -6,8 +6,13 @@
     }
     .card_MarginLf {
         padding-left: 25%;
-        
     }
+    .margin_Left{
+        margin-left:15rem;
+    }
+    .margin_Right{
+        margin-right: 15rem;
+    } 
 }
 @media (min-width: 960px),(max-width: 991px) {
 
@@ -119,9 +124,12 @@
     }
 
 
+    .header_Left_Side {
+        font-size: 2.3rem;
+        margin-left: 1rem;
+    }
 
     .header_Left_Side i{
-        /* color:whitesmoke; */
         font-size: 2.5rem;
       }
 

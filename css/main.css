@@ -63,6 +63,23 @@ html {
   transition: 0.2s;
 }
 
+/* .margin_Left{
+  margin-left:15rem;
+}
+.margin_Right{
+  margin-right: 15rem;
+} */
+
+.first_Part_Border_Top{
+  border-top: solid 2px#517fa4;
+  border-radius: 12px 1px 0 0;
+}
+
+.first_Part_Border_Bot{
+  border-bottom: solid 2px #9d51a4;
+  border-radius: 0 0 12px 1px;
+}
+
 .icon_style_inst{
   color: #5788b1;
 }
@@ -81,10 +98,6 @@ html {
 
 .header_Right_Side {
   font-size: 150%;
-}
-
-.woodTextButt:hover{
-  color:whitesmoke;
 }
 
 .bg-color {

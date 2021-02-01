@@ -121,8 +121,8 @@
     }
 
     .header_Left_Side {
-        font-size: 2.3rem;
-        color: white;
+        /* margin-right: 2rem; */
+        margin-left: 0px;
     }
 
     .woodLogo {
